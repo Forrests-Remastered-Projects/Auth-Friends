@@ -22,6 +22,11 @@ const Login = ({ history }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h1>Welcome to my App!</h1>
+      <h3>
+        If you would like to enter, please input 'Forrest' as the Login and
+        'abc123' as the Password
+      </h3>
       <input
         type="text"
         name="username"
